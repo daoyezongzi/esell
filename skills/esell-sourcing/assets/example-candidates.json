@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "example_only": true,
   "scope": "2026-09-08历史教学示例；不代表当前行情或合格推荐。1688均未实查。",
   "candidates": [
@@ -85,6 +85,14 @@
         "searched_queries": [],
         "supplier_urls": [],
         "match_evidence": null
+      },
+      "amazon_gate": {
+        "status": "UNVERIFIED",
+        "seller_limit": 10,
+        "coverage": "UNAVAILABLE",
+        "delivery_zip": null,
+        "queries": [],
+        "offers": []
       }
     },
     {
@@ -151,6 +159,14 @@
         "searched_queries": [],
         "supplier_urls": [],
         "match_evidence": null
+      },
+      "amazon_gate": {
+        "status": "UNVERIFIED",
+        "seller_limit": 10,
+        "coverage": "UNAVAILABLE",
+        "delivery_zip": null,
+        "queries": [],
+        "offers": []
       }
     },
     {
@@ -226,6 +242,14 @@
         "searched_queries": [],
         "supplier_urls": [],
         "match_evidence": null
+      },
+      "amazon_gate": {
+        "status": "UNVERIFIED",
+        "seller_limit": 10,
+        "coverage": "UNAVAILABLE",
+        "delivery_zip": null,
+        "queries": [],
+        "offers": []
       }
     }
   ]
