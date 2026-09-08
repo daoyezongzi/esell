@@ -1,0 +1,4 @@
+interface:
+  display_name: "ESell 维修配件选品"
+  short_description: "筛选维修配件并交接可复制的1688搜索词、完整实物检查点和待核证据"
+  default_prompt: "使用 $esell-sourcing 寻找维修配件候选，保留证据缺口，并为每款输出1688件号、中文和图片搜索方案。"

@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "example_only": true,
+  "scope": "2026-09-08历史教学示例；不代表当前行情或合格推荐。1688均未实查。",
+  "candidates": [
+    {
+      "id": "example-truck-bracket",
+      "part_number": "A17-13787-002",
+      "product": "Freightliner Columbia左侧机盖支撑支架",
+      "identity": "左侧支架，须核胶套内含和孔位；Amazon历史文字2003–2009适配，未逐项图核，不扩大年份",
+      "status": "QUEUED_INCOMPLETE",
+      "reason": "历史有明确商品，但准确同款覆盖、卖家归属和实物图核尚未完成",
+      "checks": {
+        "identity": "UNKNOWN",
+        "history": "UNKNOWN",
+        "price": "UNKNOWN",
+        "competition": "UNKNOWN",
+        "demand": "UNKNOWN",
+        "supplier": "UNKNOWN"
+      },
+      "evidence": [
+        {
+          "url": "https://www.amazon.com/dp/B0GYLXDW6Z",
+          "observed_at": "2026-09-08",
+          "fact": "历史读取正文列A17-13787-002、924-5202、HLK1079，品牌APPERFiT；本例不刷新价格",
+          "level": "historical_visible_product_text"
+        }
+      ],
+      "missing": [
+        {
+          "field": "market_and_identity",
+          "cause": "BUDGET_NOT_RUN",
+          "owner": "assistant",
+          "needed": "补准确单件、别名、其他报价和图片核对"
+        },
+        {
+          "field": "annual_demand",
+          "cause": "ACCESS_UNAVAILABLE",
+          "owner": "human",
+          "needed": "准确单listing365天新品美国买家销量，或OEM例外依据"
+        },
+        {
+          "field": "supplier",
+          "cause": "USER_SKIPPED",
+          "owner": "human",
+          "needed": "按搜索包找对应完整支架"
+        }
+      ],
+      "search_1688": {
+        "status": "NOT_SEARCHED",
+        "part_number_terms": [
+          "A17-13787-002",
+          "A1713787002"
+        ],
+        "confirmed_alias_terms": [
+          {
+            "term": "HLK1079",
+            "basis": "历史TruckSpring对应A17-13787-002并说明含HLK2005胶套：https://www.truckspring.com/products/Hood-Rest-Left-Freightliner__HLK1079.aspx",
+            "confirmation_level": "dealer"
+          }
+        ],
+        "unconfirmed_aliases": [
+          "924-5202：历史商家正文对应陈述，未独立确认，先核目录关系再合并同款"
+        ],
+        "chinese_terms": [
+          "福莱纳 Columbia 机盖支撑支架",
+          "福莱纳 哥伦比亚 引擎盖限位支架",
+          "Columbia 左侧 机盖缓冲支架"
+        ],
+        "image_search": {
+          "reference_url": "https://www.amazon.com/dp/B0GYLXDW6Z",
+          "instructions": "取目标左支架清晰主图做以图搜货，不使用页面推荐商品图"
+        },
+        "physical_checks": [
+          "核左侧支架轮廓、孔位及接口",
+          "核支撑胶套是否随支架包含",
+          "核单只与左右成套范围，年份按实际设备复核"
+        ],
+        "do_not_confuse": [
+          "右侧A17-13787-003",
+          "单独胶套",
+          "机盖锁扣",
+          "左右一对报价"
+        ],
+        "searched_queries": [],
+        "supplier_urls": [],
+        "match_evidence": null
+      }
+    },
+    {
+      "id": "example-toro-deflector",
+      "part_number": "140-4300",
+      "product": "Toro割草机橡胶排草导流板套件",
+      "identity": "橡胶导流板套件；安装需要重用原杆、弹簧和销，非含全部五金的总成",
+      "status": "QUEUED_INCOMPLETE",
+      "reason": "保留历史身份线索，未核当前Amazon、需求或供应商",
+      "checks": {
+        "identity": "UNKNOWN",
+        "history": "UNKNOWN",
+        "price": "UNKNOWN",
+        "competition": "UNKNOWN",
+        "demand": "UNKNOWN",
+        "supplier": "UNKNOWN"
+      },
+      "evidence": [
+        {
+          "url": "https://www.toro.com/product/140-4300",
+          "observed_at": "2026-09-08",
+          "fact": "历史厂家页面有准确套件号；当前行情未刷新",
+          "level": "historical_manufacturer_page"
+        }
+      ],
+      "missing": [
+        {
+          "field": "market",
+          "cause": "BUDGET_NOT_RUN",
+          "owner": "assistant",
+          "needed": "准确适配、当前新品价格和有效同款竞争"
+        },
+        {
+          "field": "supplier",
+          "cause": "USER_SKIPPED",
+          "owner": "human",
+          "needed": "按搜索包核同规格导流板"
+        }
+      ],
+      "search_1688": {
+        "status": "NOT_SEARCHED",
+        "part_number_terms": [
+          "140-4300",
+          "1404300"
+        ],
+        "confirmed_alias_terms": [],
+        "unconfirmed_aliases": [],
+        "chinese_terms": [
+          "托罗 割草机 排草挡板",
+          "Toro 橡胶 导流板"
+        ],
+        "image_search": {
+          "reference_url": "https://www.toro.com/product/140-4300",
+          "instructions": "使用厂家目标导流板图做以图搜货，核实设备型号"
+        },
+        "physical_checks": [
+          "核导流板轮廓、厚度与安装孔位",
+          "核是否仅含橡胶板以及哪些杆、弹簧和销需重用"
+        ],
+        "do_not_confuse": [
+          "不同甲板宽度导流板",
+          "裸胶片与不同完整五金套件"
+        ],
+        "searched_queries": [],
+        "supplier_urls": [],
+        "match_evidence": null
+      }
+    },
+    {
+      "id": "example-deere-cover",
+      "part_number": "MIU13975",
+      "product": "John Deere空气滤清器盖",
+      "identity": "空滤盖单件，不是滤芯；发动机接口与序列号要核对",
+      "status": "QUEUED_INCOMPLETE",
+      "reason": "需要先确认Briggs相似盖板替代关系，不能用滤芯价格判断盖板",
+      "checks": {
+        "identity": "UNKNOWN",
+        "history": "UNKNOWN",
+        "price": "UNKNOWN",
+        "competition": "UNKNOWN",
+        "demand": "UNKNOWN",
+        "supplier": "UNKNOWN"
+      },
+      "evidence": [
+        {
+          "url": "https://www.greenpartstore.com/John-Deere-Air-Cleaner-Cover-MIU13975.html",
+          "observed_at": "2026-09-08",
+          "fact": "历史经销商注明MIU13975替代MIU12166",
+          "level": "historical_dealer_page"
+        }
+      ],
+      "missing": [
+        {
+          "field": "functional_replacement",
+          "cause": "BUDGET_NOT_RUN",
+          "owner": "assistant",
+          "needed": "后续用目录查Briggs相似盖板是否互换；未知关系不是证据冲突，也不阻碍准确件号搜索包"
+        },
+        {
+          "field": "supplier",
+          "cause": "USER_SKIPPED",
+          "owner": "human",
+          "needed": "用准确新旧号找完整空滤盖"
+        }
+      ],
+      "search_1688": {
+        "status": "NOT_SEARCHED",
+        "part_number_terms": [
+          "MIU13975"
+        ],
+        "confirmed_alias_terms": [
+          {
+            "term": "MIU12166",
+            "basis": "历史经销商替代说明：https://www.greenpartstore.com/John-Deere-Air-Cleaner-Cover-MIU13975.html",
+            "confirmation_level": "dealer"
+          }
+        ],
+        "unconfirmed_aliases": [
+          "Briggs591646、594106、595658：仅相似盖板线索，接口和适配关系未确认"
+        ],
+        "chinese_terms": [
+          "约翰迪尔 空滤盖",
+          "强鹿 D110 空气滤清器盖"
+        ],
+        "image_search": {
+          "reference_url": "https://www.greenpartstore.com/John-Deere-Air-Cleaner-Cover-MIU13975.html",
+          "instructions": "用目标壳盖主图，以卡扣位置、轮廓和接口比对，不用滤芯图"
+        },
+        "physical_checks": [
+          "核壳盖形状、卡扣和接口",
+          "核发动机型号和设备序列号适配",
+          "确认是否盖板单件而非滤芯或整个空滤总成"
+        ],
+        "do_not_confuse": [
+          "空气滤芯",
+          "保养套件",
+          "未经证实的Briggs发动机盖板"
+        ],
+        "searched_queries": [],
+        "supplier_urls": [],
+        "match_evidence": null
+      }
+    }
+  ]
+}

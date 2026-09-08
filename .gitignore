@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+outputs/
+.private/
+.browser-profile/
+*.sqlite*
+*.log
